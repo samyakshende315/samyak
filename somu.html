@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Date Ask</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #eb9a9a;
+    }
+
+   .container {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /* 3x3 Grid */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .grid img {
+        width: 100%;
+        border-radius: 00px;
+    }
+
+   img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(2.1);
+}
+
+    .question {
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        position: relative;
+        height: 100px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #ff4d6d;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    #yesBtn {
+        left: 30%;
+    }
+
+    #noBtn {
+        left: 55%;
+    }
+
+    #message {
+        margin-top: 20px;
+        font-size: 20px;
+        display: none;
+        color: #333;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- 3x3 Photos -->
+    <div class="grid">
+        <img src="6.jpg">
+        <img src="2.png">
+        <img src="5.jpg">
+        <img src="4.jpg">
+        <img src="3.jpg">
+        <img src="1.png">
+        <img src="7.jpg">
+        <img src="9.png">
+        <img src="8.jpg">
+    </div>
+
+    <!-- Question -->
+    <div class="question">
+        Will you go on a date with me? 💖
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button id="yesBtn" onclick="location.href='2222222222.html'">Yes 💕</button>
+       <button id="noBtn" onmouseover="moveButton()">No </button>
+    </div>
+    
+    <button id="yesBtn" onclick="href()">Yes 💕</button>
+    <a href="2222222222.html"></a>
+
+ <script>
+function href() {
+    href = "2222222222.html";
+}
+</script>
+
+         
+
+
+
+   
+</div>
+
+
+<script>
+
+
+function moveButton() {
+    let btn = document.getElementById("noBtn");
+    let x = Math.random() * 80;
+    let y = Math.random() * 60;
+
+    btn.style.left = x + "%";
+    btn.style.top = y + "px";
+}
+</script>
+
+</body>
+</html>
